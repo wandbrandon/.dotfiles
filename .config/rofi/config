@@ -1,0 +1,7 @@
+rofi.theme:           ~/.cache/wal/colors-rofi-light.rasi
+rofi.font:            Iosevka Term SS05 12
+rofi.lines:           8
+rofi.columns:         1
+rofi.width:           16
+rofi.sidebar-mode:    true
+rofi.window-format:   {c}: {t}
