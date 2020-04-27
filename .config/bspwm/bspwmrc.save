@@ -1,0 +1,23 @@
+#! /bin/sh
+
+sxhkd &
+flashfocus &
+
+bspc monitor -d I II III IV V VI VII
+
+bspc config border_width         4
+bspc config window_gap          20
+
+bspc config split_ratio          0.50
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc config focus_follows_pointer true
+
+# source the colors.
+. "/home/brandon/.cache/wal/colors.sh"
+
+# Set the border colors.
+bspc config normal_border_color "$color0"
+bspc config active_border_color "$color0"
+bspc config focused_border_color "$color0"
